@@ -1,0 +1,132 @@
+// Specific CSS for your home-page
+@font-face {
+  font-family: "SourceSansPro-Black";
+  src: font-url('SourceSansPro-Black.ttf');
+}
+
+@font-face {
+  font-family: "SourceSansPro-Bold";
+  src: font-url('SourceSansPro-Bold.ttf');
+}
+
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: font-url('SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: font-url('SourceSansPro-SemiBold.ttf');
+}
+
+.background_homepage {
+  background-image: url("https://res.cloudinary.com/dlr6yrpai/image/upload/v1663344397/Portfolio/Group_4_wbmoa0.png");
+  background-color: #ffffff;
+  height: calc(100vh - 70px);
+  min-height: 480px;
+}
+
+
+.content_intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.homepage_title {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.homepage_title h1{
+  font-family: 'SourceSansPro-Bold';
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+@media screen and (min-width: 601px) {
+  .homepage_title h1{
+    font-size: 45.36px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homepage_title h1{
+    font-size: 30px;
+  }
+}
+
+.homepage_text {
+  width:  60%;
+  margin: 0 auto 2vh auto;
+  text-align: center;
+}
+
+.homepage_text p{
+  font-family: 'SourceSansPro-Regular';
+  font-size: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
+@media screen and (min-width: 601px) {
+  .homepage_text p{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homepage_text p{
+    font-size: 1rem;
+  }
+}
+
+.homepage_button {
+  margin: 2vh auto;
+  text-align: center;
+  padding: 1rem 3rem;
+  background-color: #EC886D;
+  border-radius: 1vw;
+  border: #EC886D;
+  color: #ffffff;
+  font-size: 1.5rem;
+  box-shadow: 2.5px 5px 9px #888888;;
+}
+
+.homepage_button:hover {
+  background-color: #e86f4e;
+}
+
+
+.logos_link {
+  position: absolute;
+  top: 40vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #CACACA;
+  border-radius: 0 .5vw .5vw 0;
+  text-align: center;
+}
+
+.logos_link a:hover{
+  background-color: #EC886D;
+  border-radius: 0 .5vw .5vw 0;
+}
+
+.logos_link i{
+  padding: 1vw;
+  color: black;
+}
+
+.logos_link i:hover{
+  color: #ffffff;
+}
+
+
+@media screen and (max-width: 800px) {
+  .logos_link {
+    display: none;
+  }
+}
