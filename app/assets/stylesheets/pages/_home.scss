@@ -41,6 +41,18 @@
   letter-spacing: 3px;
 }
 
+.homepage_title img{
+  -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: 'avoid synthax error';
+  }
+
+
+@media screen and (max-width: 767px) {
+  .homepage_title img{
+    max-width: 55%;
+  }
+}
+
 .homepage_title h1{
   font-family: 'SourceSansPro-Bold';
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -116,7 +128,7 @@
 }
 
 .logos_link i{
-  padding: 1vw;
+  padding: 2vh;
   color: black;
 }
 
