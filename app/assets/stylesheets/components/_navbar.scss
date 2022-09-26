@@ -2,6 +2,9 @@
   justify-content: space-between;
   background-color: white;
   height: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 @media screen and (min-width: 767px) {
@@ -45,7 +48,6 @@
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    margin: auto 5px auto 0;
   }
 }
 
@@ -155,5 +157,4 @@
   flex-grow: 0;
   text-align: right;
   background-color: white;
-  z-index: 10;
 }

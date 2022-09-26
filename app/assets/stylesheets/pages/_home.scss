@@ -22,7 +22,7 @@
 .background_homepage {
   background-image: url("https://res.cloudinary.com/dlr6yrpai/image/upload/v1663344397/Portfolio/Group_4_wbmoa0.png");
   background-color: #ffffff;
-  height: calc(100vh - 70px);
+  height: calc(100vh);
   min-height: 480px;
 }
 
@@ -101,7 +101,7 @@
   text-align: center;
   padding: .7rem 2rem;
   background-color: #EC886D;
-  border-radius: 1vw;
+  border-radius: .2vw;
   border: #EC886D;
   color: #ffffff;
   font-size: 1.5rem;
@@ -114,7 +114,7 @@
 
 
 .logos_link {
-  position: absolute;
+  position: fixed;
   top: 40vh;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,42 @@
+.about-me_title {
+  text-align: center;
+  margin: 8vh 0 3vh 0;
+}
+
+
+.about-me_title h1{
+  font-family: 'SourceSansPro-Bold';
+}
+
+
+.about-me_title p{
+  font-family: 'SourceSansPro-Regular';
+  font-size: 20px;
+}
+
+
+.about-me_title hr {
+  height: 8px;
+  width: 3rem;
+  background-color: #EC886D;
+  border-radius: 5px;
+  margin: 1.5vh auto;
+  opacity: 1;
+  border: none;
+}
+
+.text_about-me h2{
+  font-family: 'SourceSansPro-Bold';
+  margin-bottom: 3vh;
+}
+
+.text_about-me p{
+  display: inline;
+  font-family: 'SourceSansPro-Regular';
+  font-size: 17px;
+}
+
+
+.text_about-me .strong{
+  font-family: 'SourceSansPro-Bold';
+}
