@@ -10,30 +10,32 @@
         <form action="https://formsubmit.co/sebastien.verbist@hotmail.com" method="POST">
         <div class="row g-3">
           <div class="col-md-6">
-            <label for="First name" class="form-label">First Name</label>
+            <label for="First name" class="form-label">Enter your first name</label>
             <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
           </div>
           <div class="col-md-6">
-            <label for="Last name" class="form-label">Last Name</label>
+            <label for="Last name" class="form-label">Enter your last name</label>
             <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
           </div>
         </div>
         <div class="row g-3">
           <div class="col">
-            <label for="Email" class="form-label">Email</label>
+            <label for="Email" class="form-label">Enter your email</label>
             <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email" required>
           </div>
         </div>
         <div class="row g-3">
           <div class="col">
-            <label for="message" class="form-label">Message</label>
+            <label for="message" class="form-label">Enter your message</label>
             <textarea placeholder="Enter your message" class="form-control" name="message" rows="5" required></textarea>
           </div>
         </div>
-        <button class="button button_contact" type="submit">Submit</button>
-        <input type="text" name="_honey" style="display:none">
-        <input type="hidden" name="_next" value="http://localhost:3000/">
-        <input type="hidden" name="_captcha" value="false">
+        <div class="row g-3">
+          <button class="button button_contact" type="submit">Submit</button>
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_next" value="https://portfoliosebverbist.herokuapp.com/">
+          <input type="hidden" name="_captcha" value="false">
+        </div>
         </form>
       </div>
     </div>
