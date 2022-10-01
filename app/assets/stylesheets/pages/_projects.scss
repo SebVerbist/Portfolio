@@ -1,0 +1,159 @@
+.background_projects {
+  background-color: #ffffff;
+}
+
+.projects_container {
+  padding: 10vh 0 10vh 0;
+}
+
+.projects_title {
+  margin-bottom: 3vh;
+  text-align: center;
+}
+
+.projects_title h1{
+  font-family: 'SourceSansPro-Bold';
+}
+
+
+.projects_title p{
+  font-family: 'SourceSansPro-Regular';
+  font-size: 20px;
+}
+
+.row hr {
+  height: 4px;
+  width: 12rem;
+  background-color: #EC886D;
+  border-radius: 5px;
+  margin: 1.5vh auto;
+  opacity: 1;
+  border: none;
+}
+
+
+.image img {
+  width: 100%;
+}
+
+.image h2 {
+  font-family: 'SourceSansPro-Bold';
+  text-align: center;
+}
+
+.image_not_phone img {
+  width: 100%;
+}
+
+.image_not_phone h2 {
+  font-family: 'SourceSansPro-Bold';
+  text-align: center;
+}
+
+.image_phone h2 {
+  font-family: 'SourceSansPro-Bold';
+  text-align: center;
+}
+
+.image_phone img{
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .image {
+    margin-top: 1.5vh;
+  }
+
+  .image_phone {
+    margin-top: 1.5vh;
+  }
+
+  .Name_project h2 {
+    display: none;
+    margin-bottom: 1.5vh;
+  }
+
+  .Name_project p {
+    margin: 2vh 0;
+  }
+
+  .image_not_phone {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .Name_project h2 {
+    display: block;
+  }
+
+  .image h2 {
+    display: none;
+  }
+
+  .image {
+    margin-bottom: 5vh;
+  }
+
+  .image_phone {
+    display: none;
+  }
+
+  .row hr {
+    display: none;
+  }
+
+}
+
+.Name_project {
+  font-family: 'SourceSansPro-Regular';
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Name_project h2 {
+  font-family: 'SourceSansPro-Bold';
+}
+
+@media screen and (max-width: 991px) {
+  .Name_project h2 {
+    text-align: center;
+    margin-top: 3vh;
+  }
+}
+
+
+.Name_app p{
+  margin: 1.5vh 0 3vh 0;
+}
+
+.button_project {
+  padding: .7rem 2rem;
+  background-color: #EC886D;
+  border-radius: 5px;
+  border: #EC886D;
+  color: #ffffff;
+  font-size: 1.5rem;
+  box-shadow: 2.5px 5px 4px #888888;
+  text-decoration: none;
+  width: fit-content;
+}
+
+
+.button_project:hover {
+  background-color: #e86f4e;
+  color: #ffffff;
+}
+
+.center_button_projects {
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+
+.Name_project .strong{
+  font-family: 'SourceSansPro-Bold';
+}

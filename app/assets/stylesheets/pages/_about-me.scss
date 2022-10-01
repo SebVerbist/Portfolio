@@ -1,8 +1,15 @@
-.about-me_title {
-  text-align: center;
-  margin: 8vh 0 3vh 0;
+.background_about-me {
+  background-color: #fafafa;
 }
 
+.about-me_container {
+  padding: 10vh 0 10vh 0;
+}
+
+.about-me_title {
+  margin-bottom: 3vh;
+  text-align: center;
+}
 
 .about-me_title h1{
   font-family: 'SourceSansPro-Bold';
@@ -14,6 +21,9 @@
   font-size: 20px;
 }
 
+.row  {
+  margin: 0 auto;
+}
 
 .about-me_title hr {
   height: 8px;
@@ -30,13 +40,79 @@
   margin-bottom: 3vh;
 }
 
-.text_about-me p{
+.text_about-me .p{
   display: inline;
   font-family: 'SourceSansPro-Regular';
-  font-size: 17px;
+  font-size: 18.72px;
+  margin: 2vh 0 2vh 0;
 }
 
 
 .text_about-me .strong{
   font-family: 'SourceSansPro-Bold';
+}
+
+
+.about-me_button {
+  padding: .7rem 2rem;
+  background-color: #EC886D;
+  border-radius: 5px;
+  border: #EC886D;
+  color: #ffffff;
+  font-size: 1.5rem;
+  box-shadow: 2.5px 5px 4px #888888;
+  text-decoration: none;
+}
+
+.about-me_button:hover {
+  background-color: #e86f4e;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .about-me_container{
+    margin: 0 5vw 0 5vw;
+  }
+}
+
+.button_about-me {
+  text-align: center;
+}
+
+.text_and_button_about-me {
+  padding: 0 1.5vw 0 1.5vw;
+  margin: 0 0 5vh 0;
+}
+
+.skills_about-me h2{
+  font-family: 'SourceSansPro-Bold';
+  margin-bottom: 3vh;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3vh;
+}
+
+.skills__skill {
+  background-color: #ec886d;
+  margin: .5vh 1.5vh .5vh 0;
+  padding: 1vh;
+  border-radius: 5px;
+  font-family: 'SourceSansPro-Bold';
+  color: whitesmoke;
+}
+
+
+@media screen and (min-width: 601px) {
+  .text_about-me p{
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text_about-me p{
+    font-size: 1rem;
+  }
 }

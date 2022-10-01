@@ -1,0 +1,66 @@
+.background_contact {
+  background-image: url("https://res.cloudinary.com/dlr6yrpai/image/upload/v1663344397/Portfolio/Group_4_wbmoa0.png");
+  background-color: #ffffff;
+}
+
+.contact_container {
+  padding: 10vh 0 10vh 0;
+}
+
+.contact_title {
+  margin-bottom: 3vh;
+  text-align: center;
+}
+
+.contact_title h1{
+  font-family: 'SourceSansPro-Bold';
+}
+
+.contact_title p{
+  font-family: 'SourceSansPro-Regular';
+  font-size: 20px;
+}
+
+.contact_title hr {
+  height: 8px;
+  width: 3rem;
+  background-color: #EC886D;
+  border-radius: 5px;
+  margin: 1.5vh auto;
+  opacity: 1;
+  border: none;
+}
+
+.contact_form {
+  background-color: white;
+  border-radius: 5px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .contact_form {
+    width: 85%;
+  }
+}
+
+
+.button_contact {
+  margin: 2vh auto;
+  text-align: center;
+  padding: .7rem 2rem;
+  background-color: #EC886D;
+  border-radius: 5px;
+  border: #EC886D;
+  color: #ffffff;
+  font-size: 1.5rem;
+  box-shadow: 2.5px 5px 4px #888888;
+  text-decoration: none;
+}
+
+
+.form-control {
+  background-color: #f0f0f0;
+  border: 1px solid #ebebeb;
+  font-size: 1rem;
+}
