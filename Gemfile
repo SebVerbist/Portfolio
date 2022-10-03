@@ -51,6 +51,8 @@ gem "sassc-rails"
 # no secretkey on github
 gem "dotenv-rails", groups: [:development, :test]
 
+#Autofixer: improves the synthax
+gem "autoprefixer-rails"
 
 # cloudinary
 gem "cloudinary"
