@@ -19,6 +19,18 @@
   src: font-url('SourceSansPro-SemiBold.ttf');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: 'SourceSansPro-Regular';
+  }
+
+
 .background_homepage {
   background-image: url("https://res.cloudinary.com/dlr6yrpai/image/upload/v1663344397/Portfolio/Group_4_wbmoa0.png");
   background-color: #ffffff;
@@ -80,7 +92,6 @@
 }
 
 .homepage_text p{
-  font-family: 'SourceSansPro-Regular';
   font-size: 20px;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }

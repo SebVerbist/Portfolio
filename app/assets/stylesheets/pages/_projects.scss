@@ -17,7 +17,6 @@
 
 
 .projects_title p{
-  font-family: 'SourceSansPro-Regular';
   font-size: 20px;
 }
 
@@ -74,7 +73,7 @@
   }
 
   .Name_project p {
-    margin: 2vh 0;
+    margin: 5vh 0;
   }
 
   .image_not_phone {
@@ -107,7 +106,6 @@
 }
 
 .Name_project {
-  font-family: 'SourceSansPro-Regular';
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -140,6 +138,7 @@
   box-shadow: 2.5px 5px 4px #888888;
   text-decoration: none;
   width: fit-content;
+  margin-top: 2vh;
 }
 
 
