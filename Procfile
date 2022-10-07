@@ -1,1 +1,1 @@
-web: node app/views/pages/index.html.erb
+web: app/views/pages/index.html.erb
