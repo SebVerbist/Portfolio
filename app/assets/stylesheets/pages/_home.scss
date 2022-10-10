@@ -127,15 +127,27 @@ html {
   color: #ffffff;
 }
 
-
 .logos_link {
-  position: absolute;
+  position: fixed;
   top: 40vh;
   display: flex;
   flex-direction: column;
   background-color: #CACACA;
   border-radius: 0 .5vw .5vw 0;
   text-align: center;
+  font-size: 3vw;
+}
+
+@media screen and (min-width: 1200px) {
+  .logos_link {
+    font-size: 31.258px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .logos_link {
+    font-size: 24.258px;
+  }
 }
 
 .logos_link a:hover{
@@ -144,7 +156,7 @@ html {
 }
 
 .logos_link i{
-  padding: 2vh;
+  padding: 1vw;
   color: black;
 }
 
